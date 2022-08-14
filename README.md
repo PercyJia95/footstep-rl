@@ -1,106 +1,58 @@
 # footstep-rl
 
-This is my capstone project in CSC499 at UVic.
+This is my capstone project (CSC499) for Honours BSc in Computer Science at University of Victoria.
 
-The project
+---
+
+##### The project is about:
+
+
+
+---
 
 The code files I have written are in the folder **FootstepAgents**:
 
 The important code files are in the **FootstepAgents/Assets/Script** folder.
 
-```
-./Assets
-├── ML-Agents
-│   └── Timers
-│       ├── FootStepAgents_timers 2.json
-│       ├── FootStepAgents_timers 3.json
-│       ├── FootStepAgents_timers 4.json
-│       ├── FootStepAgents_timers.json
-│       ├── SampleScene_timers 2.json
-│       ├── SampleScene_timers 3.json
-│       ├── SampleScene_timers 4.json
-│       ├── SampleScene_timers.json
-│       ├── _timers 2.json
-│       ├── _timers 3.json
-│       ├── _timers 4.json
-│       └── _timers.json
-├── NN Models
-│   ├── Learned_to_walk_a_corridor.onnx
-│   └── Learned_to_walk_to_target.onnx
-├── NavMeshComponents
-│   ├── Editor
-│   │   ├── NavMeshAssetManager.cs
-│   │   ├── NavMeshComponentsEditor.asmdef
-│   │   ├── NavMeshComponentsGUIUtility.cs
-│   │   ├── NavMeshLinkEditor.cs
-│   │   ├── NavMeshModifierEditor.cs
-│   │   ├── NavMeshModifierVolumeEditor.cs
-│   │   └── NavMeshSurfaceEditor.cs
-│   └── Scripts
-│       ├── NavMeshComponents.asmdef
-│       ├── NavMeshLink.cs
-│       ├── NavMeshModifier.cs
-│       ├── NavMeshModifierVolume.cs
-│       └── NavMeshSurface.cs
-├── Scenes
-│   ├── FootStepAgents
-│   │   ├── NavMesh-NavMesh 1.asset
-│   │   └── NavMesh-NavMesh.asset
-│   └── FootStepAgents.unity
-├── Scripts
-│   ├── FieldOfView.cs
-│   ├── FieldOfViewEditor.cs
-│   ├── Footstep.cs
-│   ├── FootstepAgent_mine.cs
-│   ├── Footstep_mine.cs
-│   ├── Goal.cs
-│   ├── MazeCreator.cs
-│   ├── MazeGenerator.cs
-│   ├── PlayerController.cs
-│   ├── RandomFromDistribution.cs
-│   ├── ShowGoldenPath.cs
-│   ├── ShowPath.cs
-│   ├── ShowWorldPosition.cs
-│   ├── TargetReachable.cs
-│   └── Wall.cs
-├── Test
-│   └── NavMesh.asset
-├── Test 2.unity
-├── Test 3.unity
-├── Test 4.unity
-├── Test.unity
-├── materials
-│   ├── Agent 2.mat
-│   ├── Agent 3.mat
-│   ├── Agent 4.mat
-│   ├── Agent.mat
-│   ├── Floor 2.mat
-│   ├── Floor 3.mat
-│   ├── Floor 4.mat
-│   ├── Floor.mat
-│   ├── Goal 2.mat
-│   ├── Goal 3.mat
-│   ├── Goal 4.mat
-│   ├── Goal.mat
-│   ├── Walls 2.mat
-│   ├── Walls 3.mat
-│   ├── Walls 4.mat
-│   └── Walls.mat
-└── prefabs
-    ├── Agent.prefab
-    ├── Environment.prefab
-    ├── Floor.prefab
-    ├── FootStepAgent.prefab
-    ├── FootstepAgent_old.prefab
-    ├── GeneratedEnvironment.prefab
-    ├── LeftFoot.png
-    ├── Maze.prefab
-    ├── MazeCreator.prefab
-    ├── RightFoot.png
-    └── Wall.prefab
-```
+Have a peek at [Folder Structure](./README-folder_structure.md).
+
+This project implements the academic paper, [Footstep-navigation-for-dynamic-crowds](./Footstep-navigation-for-dynamic-crowds.pdf).
+
+### Validate the implementation
+
+#### Open the project
+
+To open the project, clone the repository and open it with Unity Hub. In Unity Hub, navigate to the repository folder, click "open" in the `FootstepAgents/ folder. Make sure that Editor Version corresponding to the project is set to <u>2019.4.29f1</u>.
+
+With these settings correctly, and after Unity does the heavy lifting, the project will open.
+
+#### Run the project
+
+Simply click the Play button ![Play button](./README-imgs/image-1.png) at the middle of the top.
+
+A maze will appear and the footstep agent appears at the top right of the maze. It walks and resets when hits with any wall of the maze.
+
+![a](./README-imgs/image-2.png)
+
+
+
+#### Features
+
+There are some interesting and successful RL trainings that I have done with this implementation.
+
+##### Agent's Architecture
+
+##### Using of ML-Agent
+
+##### Field of View
+
+##### Maze Construction
+
+##### Walk towards the goal.
+
+##### Walk around the wall
 
 
 
 
-Read more [here](./README-past.md)
+
