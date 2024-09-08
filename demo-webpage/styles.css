@@ -1,0 +1,84 @@
+body {
+  font-family: "Lato", sans-serif;
+  /* height: 4000px; */
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px;
+  /* height: 4000px; */
+}
+
+.main header {
+    font-size: 30px;
+}
+
+.main .abstract {
+  header{
+    font-size: 1.875rem;
+  } 
+  p {
+    font-size: 1em;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+} 
+
+.center {
+  margin: auto;
+  width: 65%;
+  /* height: 100%; */
+  padding: 5px;
+  text-align: center;
+  border: 3px solid green;
+  background-image: url("./assets/image-2.png");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+}
+
+.content-box{
+  /* height: 1100px; */
+  height: 100%;
+  padding: 30px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.demo {
+  font-size: 1.875rem;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
