@@ -1,8 +1,4 @@
-# footstep-rl
-
-This is my capstone project (CSC499) for Honours BSc in Computer Science at University of Victoria.
-
----
+# Footstep-RL
 
 ##### The project is about:
 
